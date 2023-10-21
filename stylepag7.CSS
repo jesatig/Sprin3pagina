@@ -1,0 +1,13 @@
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(45, 69, 8);
+    font-size: xx-large;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    color: green;
+    font-size: x-large;}

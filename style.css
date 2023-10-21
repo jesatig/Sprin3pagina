@@ -1,0 +1,60 @@
+body{background-image:
+    url(https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/0d7af084462907.5d5d8aeee7464.gif) ;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    background: linear-gradient(#1d1a77, #5995a4);
+}
+
+.carousel-inner{
+    display: flex;
+    justify-content: center;
+}
+
+
+.logo{
+    display: flex;
+}
+.logo image{
+    height: 50px;
+}
+
+.syr{
+    display: flex;
+    justify-content: center;
+}
+
+.texto1{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+.texto2{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(51, 0, 255);
+}
+form{
+    background:linear-gradient(#1d1a77, #5995a4);
+}
+.bq{
+    background-color: cadetblue;
+
+}
+.rp{ background-color: crimson;
+
+}
+.cai{ background-color: brown;
+
+}
+.san{ background-color: darkred;
+
+}
+.rr{ background-color: aqua;
+
+}
+.oe{ background-color: grey;
+
+}

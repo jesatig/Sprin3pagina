@@ -1,0 +1,28 @@
+body{
+    background-image:url(https://pbs.twimg.com/media/FegKS0GWYAA6fN5.jpg:large) ;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    background:linear-gradient(#0a0dc2, #9a0b0b)
+    
+}
+h2{
+    font-family: 'Autour One', cursive;
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    background:linear-gradient(#0a0dc2, #9a0b0b)
+}
+p{
+    display: flex;
+    justify-content: center;
+    color: rgb(21, 27, 208);
+}
+aside{
+    display: flex;
+    justify-content: center;
+    color: rgb(224, 136, 22);
+}

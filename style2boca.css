@@ -1,0 +1,27 @@
+body{
+    background-image: url(https://www.infobae.com/new-resizer/Hz4h-B09icrof-OyIcLMCvtCZao=/arc-anglerfish-arc2-prod-infobae/public/MRRTYA6GGFHU5MIG27N774673U.jpg);
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    background:linear-gradient(#0a0dc2, #aed211)
+}
+h2{
+    font-family: 'Autour One', cursive;
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    background:linear-gradient(#0a0dc2, #aed211)
+}
+p{
+    display: flex;
+    justify-content: center;
+    color: rgb(226, 132, 10);
+}
+aside{
+    display: flex;
+    justify-content: center;
+    color: rgb(226, 132, 10);
+}

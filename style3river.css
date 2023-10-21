@@ -1,0 +1,28 @@
+body{
+    background-image: url(https://revistauncanio.com.ar/wp-content/uploads/2022/10/Breve-resena-sobre-el-River-Plate-1.jpg);
+    
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    background:linear-gradient(#701111, #d2111173)
+}
+h2{
+    font-family: 'Autour One', cursive;
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    background:linear-gradient(#701111, #d2111173)
+}
+p{
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+}
+aside{
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+}

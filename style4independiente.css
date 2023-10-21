@@ -1,0 +1,27 @@
+body{
+    background-image: url(https://clubaindependiente.com.ar/img/noticias/2021/fondoweb.jpg);
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    background:linear-gradient(#701111, #d2111173)
+}
+h2{
+    font-family: 'Autour One', cursive;
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    background:linear-gradient(#701111, #d2111173)
+}
+p{
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+}
+aside{
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+}
