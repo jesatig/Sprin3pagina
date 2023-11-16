@@ -15,11 +15,11 @@
             <img src="https://1.bp.blogspot.com/-rOF5Wb57iLk/XsRRMmtCT6I/AAAAAAABa8g/qJKURC7RQU4yLMjUMekRDygJ84ssepPegCK4BGAsYHg/LPF256x.png" alt="Logo lpf">
         </div>
 
-        <h1>Directorio de los 5 grandes</h1>
+        <h1>Pag de Apreciaicon a los grandes</h1>
     
     </header>
    
-    <><p class="texto1">
+    <p class="texto1">
       Este post va destinado principalmente al trabajo de desarrollo web del BA multiplica</p> 
       <p class="texto2">
           Mas a crear una especie de directorio de los equipos del futbol argentino, abarcando desde su historia, 
@@ -29,21 +29,21 @@
    <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <a href="pagina-3river-.html" target="_parent"><img src="./images/CARPescudo.png" class="riversito" alt="CARP"
+            <a href="html/pagina-3river-.html" target="_parent"><img src="./images/CARPescudo.png" class="riversito" alt="CARP"
             width="305"
             height="315"
             title="River Plate"
             class="carp"></a>
           </div>
           <div class="carousel-item">
-           <a href="pagina-2-boca.html" target="_parent"><img src="./images/Boca.jpg" class="boquita" alt="CABJ"
+           <a href="html/pagina-2-boca.html" target="_parent"><img src="./images/Boca.jpg" class="boquita" alt="CABJ"
             width="325"
             height="345"
             title="Boca Juniors"
             class="cabj"></a> 
           </div>
           <div class="carousel-item">
-           <a href="pagina-4-independiente.html" target="_parent"><img src="./images/caiescudo.png" class="independiente"
+           <a href="html/pagina-4-independiente.html" target="_parent"><img src="./images/caiescudo.png" class="independiente"
             alt="CAI"
         width="305"
         height="315"
@@ -51,7 +51,7 @@
         class="cai"></a>
           </div>
           <div class="carousel-item">
-            <a href="pagina-5-sanlorenzo.html" target="_parent"><img src="./images/Sanloescudo.png" class="sanlo"
+            <a href="html/pagina-5-sanlorenzo.html" target="_parent"><img src="./images/Sanloescudo.png" class="sanlo"
              alt="CASLA"
          width="305"
          height="315"
@@ -59,7 +59,7 @@
          class="casla"></a>
           </div>
           <div class="carousel-item">
-            <a href="pagina-6-racing.html" target="_parent"><img src="./images/Racingescudo.png" class="racing"
+            <a href="html/pagina-6-racing.html" target="_parent"><img src="./images/Racingescudo.png" class="racing"
              alt="RACING"
          width="305"
          height="315"
@@ -80,59 +80,51 @@
         
 <div>
   <img src="images/FormacionCARP.jpg" alt="River Plate"
-  width="500"
-  height="300"
+  width="300"
+  height="150"
   title="Club Atletico river Plate 2018"
-  class="riversito">
+  class="riversito"
+  id="riversito">
   </a><img src="images/FormacionCABJ.jpg" alt="Boca Juniors"
-  width="500"
-  height="300"
+  width="300"
+  height="150"
   title="Club Atletico boca Juniors 2001"
-  class="boquita">
+  class="boquita"
+  id="boquita">
   <img src="images/FormacionCAI.PNG" alt="Independiente"
-  width="500"
-  height="300"
+  width="300"
+  height="150"
   title="Club Atletico Independiente"
-  class="elrojo">
-</div>
-<div class="syr">
+  class="elrojo"
+  id="elrojo">
   <img src="images/FormacionSANLO.jpg" alt="SanLo"
-  width="500"
-  height="300"
+  width="300"
+  height="150"
   title="Club Atletico San Lorenzo 2014"
-  class="cuervito">
+  class="cuervito"
+  id="cuervito">
   <img src="images/FormacionRacing.jpg" alt="Racing"
-  width="500"
-  height="300"
+  width="300"
+  height="150"
   title="Racing de Avellaneda"
-  class="laacde">
+  class="laacade"
+  id="laacade">
 </div>
 
-    <form action="pagina7check.html" method="get">
-        <fieldset>
-            <legend>Aportanos tus datos y opiniones</legend>
-        
-        <p>
-            <label for="Nombre">Nombre:</label>
-            <input type="text" name="Nombre" id="Nombre">
-            <label for="Contacto">Contacto</label>
-            <input type="email" name="email" id="email">
-        </p>
+<div id="espacio" class="mt-3"></div>
 
+<form action="get" class="formulario">
+  <h2 class="titulo">Aportes y contacto</h2>
+  <input type="text" class="formulario__input">
+  <label for="" class="formulario__label">Nombre</label>
+  <input type="text" class="formulario__input">
+  <label for="" class="formulario__label"> Apellido </label>
+  <input type="email" class="formulario__input">
+  <label for="" class="formulario__label"> Correo </label>
+  <input type="number" class="formulario__input">
+  <label for="" class="formulario__label"> N° de socio </label>
         <p>
-            <label for="Apellido">Apellido:</label>
-            <input type="text" name="Apellido" id="Apellido">
-            <label for="Acepto">Estoy de acuerdo</label>
-            <input type="checkbox" name="Acepto" id="Acepto">
-        </p>
-
-        <p>
-            <label for="Mensaje">Aportes</label>
-            <textarea type="text" name="Mensaje" id="Mensaje"></textarea>
-        </p>
-
-        <p>
-            <select for="select" name="Prenda">
+            <select for="select" name="select">
                 <option name="select" value="1"></option>
                 <option name="select" value="7" class="bq">BOQUITA</option>
                 <option name="select" value="B" class="rp">RIVERSITO</option>
@@ -142,12 +134,13 @@
                 <option name="select" value="otro equipo" class="oe">Otro Equipo</option>
             </select>
         </p>
-    <input type="submit">
-    <input type="reset">
-        </fieldset>    
+        <input type="submit" class="formulariosubmit">
+        <input type="reset" class="formularioreset">   
     </form>
-    <script src="./js/Avariable.js">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
 
     </script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="./js/alerta.js"></script>
 </body>
 </html>
