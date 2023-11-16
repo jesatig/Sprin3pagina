@@ -1,0 +1,92 @@
+body{
+    background-image:url(https://pbs.twimg.com/media/FegKS0GWYAA6fN5.jpg:large) ;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    background:linear-gradient(#0a0dc2, #9a0b0b)
+    
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    background:linear-gradient(#0a0dc2, #9a0b0b)
+}
+.palmares{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    background:linear-gradient(#0a0dc2, #9a0b0b)
+}
+p{
+    display: flex;
+    justify-content: center;
+    color: rgb(21, 27, 208);
+}
+aside{
+    display: flex;
+    justify-content: center;
+    color: rgb(226, 132, 10);
+}
+
+.bidegan{ 
+    animation-name: bidegan;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+@keyframes bidegan{
+        0% {
+           transform: translate(-50%);
+        }
+        25%{
+           transform: translate(50%);
+        }
+      
+        50%{
+           transform: translate(-50%);}
+       
+        75%{
+           transform: translate(50%);
+        }
+        100%{
+           transform: translate(-50%);
+        }
+        }
+
+
+    video{
+    float: right;
+}
+
+.labuteler{ 
+    animation-name: labuteler;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+@keyframes labuteler{
+        0% {
+           transform: translate(50%);
+        }
+        25%{
+           transform: translate(-50%);
+        }
+      
+        50%{
+           transform: translate(50%);}
+       
+        75%{
+           transform: translate(-50%);
+        }
+        100%{
+           transform: translate(50%);
+        }
+        }

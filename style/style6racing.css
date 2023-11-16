@@ -1,0 +1,92 @@
+body{
+    background-image: url(https://www.racingdealma.com.ar/wp-content/uploads/2022/10/179BDAF1-A3AD-4164-A53D-53F78B38F557.jpeg);
+    background-size: cover;
+    background-position: center center;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    background:linear-gradient(#1c3bba, #1ae6e973)
+}
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #1c3bba;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    background:linear-gradient(#1c3bba, #1ae6e973)
+}
+.palmares{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    background:linear-gradient(#1c3bba, #1ae6e973)
+}
+aside{
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+}
+
+.cilindro{ 
+    animation-name: cilindro;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+@keyframes cilindro{
+        0% {
+           transform: translate(-50%);
+        }
+        25%{
+           transform: translate(50%);
+        }
+      
+        50%{
+           transform: translate(-50%);}
+       
+        75%{
+           transform: translate(50%);
+        }
+        100%{
+           transform: translate(-50%);
+        }
+        }
+
+video{
+    float: right;
+}
+.laguardia{
+    animation-name: laguardia;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+@keyframes laguardia{
+        0% {
+           transform: translate(50%);
+        }
+        25%{
+           transform: translate(-50%);
+        }
+      
+        50%{
+           transform: translate(50%);}
+       
+        75%{
+           transform: translate(-50%);
+        }
+        100%{
+           transform: translate(50%);
+        }
+        }

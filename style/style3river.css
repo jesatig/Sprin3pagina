@@ -1,0 +1,92 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/95/fe/35/95fe3576f2273faf235dc2baa6b8e650.png);
+    background-position: center center;
+    background-size: cover;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    background:linear-gradient(#701111, #d2111173)
+}
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #e61017;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    background:linear-gradient(#701111, #d2111173)
+}
+.palmares{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    background:linear-gradient(#701111, #d2111173)
+}
+aside{
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+}
+
+.monumental{ 
+    animation-name: monumental;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+@keyframes monumental{
+        0% {
+           transform: translate(-50%);
+        }
+        25%{
+           transform: translate(50%);
+        }
+      
+        50%{
+           transform: translate(-50%);}
+       
+        75%{
+           transform: translate(50%);
+        }
+        100%{
+           transform: translate(-50%);
+        }
+        }
+
+video{
+    float: right;
+}
+.losborra{
+    animation-name: losborra;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+@keyframes losborra{
+        0% {
+           transform: translate(50%);
+        }
+        25%{
+           transform: translate(-50%);
+        }
+      
+        50%{
+           transform: translate(50%);}
+       
+        75%{
+           transform: translate(-50%);
+        }
+        100%{
+           transform: translate(50%);
+        }
+        }
