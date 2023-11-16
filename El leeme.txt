@@ -1,0 +1,22 @@
+BUENAS TARDES, NOCHES, MAÑANAS
+
+Me permito hacer entrega del sprint 3, con leves modificaciones a los anteriore, incluyendo java script, se mantiene la idea base de un directorio de los equipos grandes de futbol argentino, ahora con un poco mas de detalle y un ainterfaz mas minimalista, pero con nuevas funciones y propiedades, que mejoran la experancia.
+
+Como dato de color, aparte de utilizar el DOM, me anime a utilizar una libreria externa, como una opcion extra.
+
+Espero que se de su agrado!
+
+¿De que cuadro sos?
+
+pdta: me acstumbre a guardar todo con ctrl + s, que casi no see me guarda este "Readme"
+
+
+
+https://jesatig.github.io/Sprin3pagina/
+
+
+https://drive.google.com/file/d/1YcLajtYJDI-rvdkpZ7AFKlihq_1W-Zfe/view?usp=sharing
+
+
+
+dejo por la dudas los archivos y las pagina
